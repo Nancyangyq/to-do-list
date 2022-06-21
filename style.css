@@ -1,0 +1,85 @@
+.body{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background:#5CACEE;
+  width:800px;
+  height:600px;
+/*   border:3px solid; */
+  margin:30px auto;
+  position:relative;
+}
+
+.h1{
+  text-align:center;
+  font-weight:bolder;
+  font-size:64px;
+  padding:20px;
+  color:#F0FFFF;
+/*   -webkit-text-stroke:2px #ccc; */
+}
+
+.inputB{
+/*   background-color:#FFEFDB; */
+  border-bottom:2px solid #fff;
+  padding:10px 0;
+}
+
+.inputData{
+  width:320px;
+  height:35px;
+  border:0;
+  border-radius:5px;
+  text-align:center;
+  background-color:#FFEFDB;
+  font-weight:500;
+  font-size:16px;
+}
+
+.button{
+  width:50px;
+  height:35px;
+  border:0;
+  border-radius:5px;
+  color:#F0FFFF;
+  font-weight:500;
+  font-size:16px;
+  background-color:#838B8B;
+  cursor:pointer;
+  margin-right:5px;
+}
+
+.input_text{
+  display:flex;
+  flex-direction:column;
+}
+
+.inputData_text{
+  text-align:left;
+  line-height:40px;
+  background-color:#FFEFDB;
+  border-radius:5px;
+  width:320px;
+  height:40px;
+  font-weight:500;
+  font-size:16px;
+  padding-left:60px;
+  margin-top:10px;
+}
+
+.button_text{
+  width:50px;
+  height:35px;
+  border:0;
+  border-radius:5px;
+  color:#F0FFFF;
+  font-weight:600;
+  font-size:13px;
+  background-color:#838B8B;
+  cursor:pointer;
+  text-align:center;
+  margin-top:2px;
+  position:absolute;
+  right:213px;
+  padding:2px;
+}
